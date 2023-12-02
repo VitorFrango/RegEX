@@ -1,0 +1,1516 @@
+{
+  "EmptySymbol": "ε",
+  "AllowNulledTrans": 1,
+  "StartState": "0",
+  "FinalStates": [
+    "150"
+  ],
+  "InputAlphabet": [
+    "A",
+    "V"
+  ],
+  "NFAeStates": [
+    "0",
+    "1",
+    "51",
+    "2",
+    "26",
+    "52",
+    "59",
+    "62",
+    "67",
+    "3",
+    "10",
+    "13",
+    "18",
+    "27",
+    "34",
+    "37",
+    "42",
+    "53",
+    "56",
+    "60",
+    "63",
+    "68",
+    "4",
+    "7",
+    "11",
+    "14",
+    "19",
+    "28",
+    "31",
+    "35",
+    "38",
+    "43",
+    "54",
+    "57",
+    "61",
+    "64",
+    "69",
+    "5",
+    "8",
+    "12",
+    "15",
+    "20",
+    "29",
+    "32",
+    "36",
+    "39",
+    "44",
+    "55",
+    "58",
+    "74",
+    "65",
+    "70",
+    "6",
+    "9",
+    "25",
+    "16",
+    "21",
+    "30",
+    "33",
+    "49",
+    "40",
+    "45",
+    "75",
+    "99",
+    "66",
+    "71",
+    "50",
+    "17",
+    "22",
+    "41",
+    "46",
+    "76",
+    "83",
+    "86",
+    "91",
+    "100",
+    "150",
+    "72",
+    "23",
+    "47",
+    "77",
+    "80",
+    "84",
+    "87",
+    "92",
+    "101",
+    "125",
+    "73",
+    "24",
+    "48",
+    "78",
+    "81",
+    "85",
+    "88",
+    "93",
+    "102",
+    "109",
+    "112",
+    "117",
+    "126",
+    "133",
+    "136",
+    "141",
+    "79",
+    "82",
+    "98",
+    "89",
+    "94",
+    "103",
+    "106",
+    "110",
+    "113",
+    "118",
+    "127",
+    "130",
+    "134",
+    "137",
+    "142",
+    "90",
+    "95",
+    "104",
+    "107",
+    "111",
+    "114",
+    "119",
+    "128",
+    "131",
+    "135",
+    "138",
+    "143",
+    "96",
+    "105",
+    "108",
+    "124",
+    "115",
+    "120",
+    "129",
+    "132",
+    "148",
+    "139",
+    "144",
+    "97",
+    "149",
+    "116",
+    "121",
+    "140",
+    "145",
+    "122",
+    "146",
+    "123",
+    "147"
+  ],
+  "NFAeRules": [
+    {
+      "state": "0",
+      "input": "ε",
+      "new_state": "1",
+      "arrow_transition": "trans_arrow_0"
+    },
+    {
+      "state": "0",
+      "input": "ε",
+      "new_state": "51",
+      "arrow_transition": "trans_arrow_1"
+    },
+    {
+      "state": "1",
+      "input": "ε",
+      "new_state": "2",
+      "arrow_transition": "trans_arrow_2"
+    },
+    {
+      "state": "1",
+      "input": "ε",
+      "new_state": "26",
+      "arrow_transition": "trans_arrow_3"
+    },
+    {
+      "state": "51",
+      "input": "ε",
+      "new_state": "52",
+      "arrow_transition": "trans_arrow_4"
+    },
+    {
+      "state": "51",
+      "input": "ε",
+      "new_state": "59",
+      "arrow_transition": "trans_arrow_5"
+    },
+    {
+      "state": "51",
+      "input": "ε",
+      "new_state": "62",
+      "arrow_transition": "trans_arrow_6"
+    },
+    {
+      "state": "51",
+      "input": "ε",
+      "new_state": "67",
+      "arrow_transition": "trans_arrow_7"
+    },
+    {
+      "state": "2",
+      "input": "ε",
+      "new_state": "3",
+      "arrow_transition": "trans_arrow_8"
+    },
+    {
+      "state": "2",
+      "input": "ε",
+      "new_state": "10",
+      "arrow_transition": "trans_arrow_9"
+    },
+    {
+      "state": "2",
+      "input": "ε",
+      "new_state": "13",
+      "arrow_transition": "trans_arrow_10"
+    },
+    {
+      "state": "2",
+      "input": "ε",
+      "new_state": "18",
+      "arrow_transition": "trans_arrow_11"
+    },
+    {
+      "state": "26",
+      "input": "ε",
+      "new_state": "27",
+      "arrow_transition": "trans_arrow_12"
+    },
+    {
+      "state": "26",
+      "input": "ε",
+      "new_state": "34",
+      "arrow_transition": "trans_arrow_13"
+    },
+    {
+      "state": "26",
+      "input": "ε",
+      "new_state": "37",
+      "arrow_transition": "trans_arrow_14"
+    },
+    {
+      "state": "26",
+      "input": "ε",
+      "new_state": "42",
+      "arrow_transition": "trans_arrow_15"
+    },
+    {
+      "state": "52",
+      "input": "ε",
+      "new_state": "53",
+      "arrow_transition": "trans_arrow_16"
+    },
+    {
+      "state": "52",
+      "input": "ε",
+      "new_state": "56",
+      "arrow_transition": "trans_arrow_17"
+    },
+    {
+      "state": "59",
+      "input": "A",
+      "new_state": "60",
+      "arrow_transition": "trans_arrow_18"
+    },
+    {
+      "state": "62",
+      "input": "A",
+      "new_state": "63",
+      "arrow_transition": "trans_arrow_19"
+    },
+    {
+      "state": "67",
+      "input": "A",
+      "new_state": "68",
+      "arrow_transition": "trans_arrow_20"
+    },
+    {
+      "state": "3",
+      "input": "ε",
+      "new_state": "4",
+      "arrow_transition": "trans_arrow_21"
+    },
+    {
+      "state": "3",
+      "input": "ε",
+      "new_state": "7",
+      "arrow_transition": "trans_arrow_22"
+    },
+    {
+      "state": "10",
+      "input": "A",
+      "new_state": "11",
+      "arrow_transition": "trans_arrow_23"
+    },
+    {
+      "state": "13",
+      "input": "A",
+      "new_state": "14",
+      "arrow_transition": "trans_arrow_24"
+    },
+    {
+      "state": "18",
+      "input": "A",
+      "new_state": "19",
+      "arrow_transition": "trans_arrow_25"
+    },
+    {
+      "state": "27",
+      "input": "ε",
+      "new_state": "28",
+      "arrow_transition": "trans_arrow_26"
+    },
+    {
+      "state": "27",
+      "input": "ε",
+      "new_state": "31",
+      "arrow_transition": "trans_arrow_27"
+    },
+    {
+      "state": "34",
+      "input": "V",
+      "new_state": "35",
+      "arrow_transition": "trans_arrow_28"
+    },
+    {
+      "state": "37",
+      "input": "V",
+      "new_state": "38",
+      "arrow_transition": "trans_arrow_29"
+    },
+    {
+      "state": "42",
+      "input": "V",
+      "new_state": "43",
+      "arrow_transition": "trans_arrow_30"
+    },
+    {
+      "state": "53",
+      "input": "A",
+      "new_state": "54",
+      "arrow_transition": "trans_arrow_31"
+    },
+    {
+      "state": "56",
+      "input": "ε",
+      "new_state": "57",
+      "arrow_transition": "trans_arrow_32"
+    },
+    {
+      "state": "60",
+      "input": "V",
+      "new_state": "61",
+      "arrow_transition": "trans_arrow_33"
+    },
+    {
+      "state": "63",
+      "input": "V",
+      "new_state": "64",
+      "arrow_transition": "trans_arrow_34"
+    },
+    {
+      "state": "68",
+      "input": "V",
+      "new_state": "69",
+      "arrow_transition": "trans_arrow_35"
+    },
+    {
+      "state": "4",
+      "input": "A",
+      "new_state": "5",
+      "arrow_transition": "trans_arrow_36"
+    },
+    {
+      "state": "7",
+      "input": "ε",
+      "new_state": "8",
+      "arrow_transition": "trans_arrow_37"
+    },
+    {
+      "state": "11",
+      "input": "V",
+      "new_state": "12",
+      "arrow_transition": "trans_arrow_38"
+    },
+    {
+      "state": "14",
+      "input": "V",
+      "new_state": "15",
+      "arrow_transition": "trans_arrow_39"
+    },
+    {
+      "state": "19",
+      "input": "V",
+      "new_state": "20",
+      "arrow_transition": "trans_arrow_40"
+    },
+    {
+      "state": "28",
+      "input": "V",
+      "new_state": "29",
+      "arrow_transition": "trans_arrow_41"
+    },
+    {
+      "state": "31",
+      "input": "ε",
+      "new_state": "32",
+      "arrow_transition": "trans_arrow_42"
+    },
+    {
+      "state": "35",
+      "input": "A",
+      "new_state": "36",
+      "arrow_transition": "trans_arrow_43"
+    },
+    {
+      "state": "38",
+      "input": "A",
+      "new_state": "39",
+      "arrow_transition": "trans_arrow_44"
+    },
+    {
+      "state": "43",
+      "input": "A",
+      "new_state": "44",
+      "arrow_transition": "trans_arrow_45"
+    },
+    {
+      "state": "54",
+      "input": "V",
+      "new_state": "55",
+      "arrow_transition": "trans_arrow_46"
+    },
+    {
+      "state": "57",
+      "input": "ε",
+      "new_state": "58",
+      "arrow_transition": "trans_arrow_47"
+    },
+    {
+      "state": "61",
+      "input": "ε",
+      "new_state": "74",
+      "arrow_transition": "trans_arrow_48"
+    },
+    {
+      "state": "64",
+      "input": "A",
+      "new_state": "65",
+      "arrow_transition": "trans_arrow_49"
+    },
+    {
+      "state": "69",
+      "input": "A",
+      "new_state": "70",
+      "arrow_transition": "trans_arrow_50"
+    },
+    {
+      "state": "5",
+      "input": "V",
+      "new_state": "6",
+      "arrow_transition": "trans_arrow_51"
+    },
+    {
+      "state": "8",
+      "input": "ε",
+      "new_state": "9",
+      "arrow_transition": "trans_arrow_52"
+    },
+    {
+      "state": "12",
+      "input": "ε",
+      "new_state": "25",
+      "arrow_transition": "trans_arrow_53"
+    },
+    {
+      "state": "15",
+      "input": "A",
+      "new_state": "16",
+      "arrow_transition": "trans_arrow_54"
+    },
+    {
+      "state": "20",
+      "input": "A",
+      "new_state": "21",
+      "arrow_transition": "trans_arrow_55"
+    },
+    {
+      "state": "29",
+      "input": "A",
+      "new_state": "30",
+      "arrow_transition": "trans_arrow_56"
+    },
+    {
+      "state": "32",
+      "input": "ε",
+      "new_state": "33",
+      "arrow_transition": "trans_arrow_57"
+    },
+    {
+      "state": "36",
+      "input": "ε",
+      "new_state": "49",
+      "arrow_transition": "trans_arrow_58"
+    },
+    {
+      "state": "39",
+      "input": "V",
+      "new_state": "40",
+      "arrow_transition": "trans_arrow_59"
+    },
+    {
+      "state": "44",
+      "input": "V",
+      "new_state": "45",
+      "arrow_transition": "trans_arrow_60"
+    },
+    {
+      "state": "55",
+      "input": "ε",
+      "new_state": "58",
+      "arrow_transition": "trans_arrow_61"
+    },
+    {
+      "state": "58",
+      "input": "ε",
+      "new_state": "74",
+      "arrow_transition": "trans_arrow_62"
+    },
+    {
+      "state": "74",
+      "input": "ε",
+      "new_state": "75",
+      "arrow_transition": "trans_arrow_63"
+    },
+    {
+      "state": "74",
+      "input": "ε",
+      "new_state": "99",
+      "arrow_transition": "trans_arrow_64"
+    },
+    {
+      "state": "65",
+      "input": "V",
+      "new_state": "66",
+      "arrow_transition": "trans_arrow_65"
+    },
+    {
+      "state": "70",
+      "input": "V",
+      "new_state": "71",
+      "arrow_transition": "trans_arrow_66"
+    },
+    {
+      "state": "6",
+      "input": "ε",
+      "new_state": "9",
+      "arrow_transition": "trans_arrow_67"
+    },
+    {
+      "state": "9",
+      "input": "ε",
+      "new_state": "25",
+      "arrow_transition": "trans_arrow_68"
+    },
+    {
+      "state": "25",
+      "input": "ε",
+      "new_state": "50",
+      "arrow_transition": "trans_arrow_69"
+    },
+    {
+      "state": "16",
+      "input": "V",
+      "new_state": "17",
+      "arrow_transition": "trans_arrow_70"
+    },
+    {
+      "state": "21",
+      "input": "V",
+      "new_state": "22",
+      "arrow_transition": "trans_arrow_71"
+    },
+    {
+      "state": "30",
+      "input": "ε",
+      "new_state": "33",
+      "arrow_transition": "trans_arrow_72"
+    },
+    {
+      "state": "33",
+      "input": "ε",
+      "new_state": "49",
+      "arrow_transition": "trans_arrow_73"
+    },
+    {
+      "state": "49",
+      "input": "ε",
+      "new_state": "50",
+      "arrow_transition": "trans_arrow_74"
+    },
+    {
+      "state": "40",
+      "input": "A",
+      "new_state": "41",
+      "arrow_transition": "trans_arrow_75"
+    },
+    {
+      "state": "45",
+      "input": "A",
+      "new_state": "46",
+      "arrow_transition": "trans_arrow_76"
+    },
+    {
+      "state": "75",
+      "input": "ε",
+      "new_state": "76",
+      "arrow_transition": "trans_arrow_77"
+    },
+    {
+      "state": "75",
+      "input": "ε",
+      "new_state": "83",
+      "arrow_transition": "trans_arrow_78"
+    },
+    {
+      "state": "75",
+      "input": "ε",
+      "new_state": "86",
+      "arrow_transition": "trans_arrow_79"
+    },
+    {
+      "state": "75",
+      "input": "ε",
+      "new_state": "91",
+      "arrow_transition": "trans_arrow_80"
+    },
+    {
+      "state": "99",
+      "input": "ε",
+      "new_state": "100",
+      "arrow_transition": "trans_arrow_81"
+    },
+    {
+      "state": "99",
+      "input": "ε",
+      "new_state": "150",
+      "arrow_transition": "trans_arrow_82"
+    },
+    {
+      "state": "66",
+      "input": "ε",
+      "new_state": "74",
+      "arrow_transition": "trans_arrow_83"
+    },
+    {
+      "state": "71",
+      "input": "A",
+      "new_state": "72",
+      "arrow_transition": "trans_arrow_84"
+    },
+    {
+      "state": "50",
+      "input": "ε",
+      "new_state": "1",
+      "arrow_transition": "trans_arrow_85"
+    },
+    {
+      "state": "50",
+      "input": "ε",
+      "new_state": "51",
+      "arrow_transition": "trans_arrow_86"
+    },
+    {
+      "state": "17",
+      "input": "ε",
+      "new_state": "25",
+      "arrow_transition": "trans_arrow_87"
+    },
+    {
+      "state": "22",
+      "input": "A",
+      "new_state": "23",
+      "arrow_transition": "trans_arrow_88"
+    },
+    {
+      "state": "41",
+      "input": "ε",
+      "new_state": "49",
+      "arrow_transition": "trans_arrow_89"
+    },
+    {
+      "state": "46",
+      "input": "V",
+      "new_state": "47",
+      "arrow_transition": "trans_arrow_90"
+    },
+    {
+      "state": "76",
+      "input": "ε",
+      "new_state": "77",
+      "arrow_transition": "trans_arrow_91"
+    },
+    {
+      "state": "76",
+      "input": "ε",
+      "new_state": "80",
+      "arrow_transition": "trans_arrow_92"
+    },
+    {
+      "state": "83",
+      "input": "V",
+      "new_state": "84",
+      "arrow_transition": "trans_arrow_93"
+    },
+    {
+      "state": "86",
+      "input": "V",
+      "new_state": "87",
+      "arrow_transition": "trans_arrow_94"
+    },
+    {
+      "state": "91",
+      "input": "V",
+      "new_state": "92",
+      "arrow_transition": "trans_arrow_95"
+    },
+    {
+      "state": "100",
+      "input": "ε",
+      "new_state": "101",
+      "arrow_transition": "trans_arrow_96"
+    },
+    {
+      "state": "100",
+      "input": "ε",
+      "new_state": "125",
+      "arrow_transition": "trans_arrow_97"
+    },
+    {
+      "state": "72",
+      "input": "V",
+      "new_state": "73",
+      "arrow_transition": "trans_arrow_98"
+    },
+    {
+      "state": "23",
+      "input": "V",
+      "new_state": "24",
+      "arrow_transition": "trans_arrow_99"
+    },
+    {
+      "state": "47",
+      "input": "A",
+      "new_state": "48",
+      "arrow_transition": "trans_arrow_100"
+    },
+    {
+      "state": "77",
+      "input": "V",
+      "new_state": "78",
+      "arrow_transition": "trans_arrow_101"
+    },
+    {
+      "state": "80",
+      "input": "ε",
+      "new_state": "81",
+      "arrow_transition": "trans_arrow_102"
+    },
+    {
+      "state": "84",
+      "input": "A",
+      "new_state": "85",
+      "arrow_transition": "trans_arrow_103"
+    },
+    {
+      "state": "87",
+      "input": "A",
+      "new_state": "88",
+      "arrow_transition": "trans_arrow_104"
+    },
+    {
+      "state": "92",
+      "input": "A",
+      "new_state": "93",
+      "arrow_transition": "trans_arrow_105"
+    },
+    {
+      "state": "101",
+      "input": "ε",
+      "new_state": "102",
+      "arrow_transition": "trans_arrow_106"
+    },
+    {
+      "state": "101",
+      "input": "ε",
+      "new_state": "109",
+      "arrow_transition": "trans_arrow_107"
+    },
+    {
+      "state": "101",
+      "input": "ε",
+      "new_state": "112",
+      "arrow_transition": "trans_arrow_108"
+    },
+    {
+      "state": "101",
+      "input": "ε",
+      "new_state": "117",
+      "arrow_transition": "trans_arrow_109"
+    },
+    {
+      "state": "125",
+      "input": "ε",
+      "new_state": "126",
+      "arrow_transition": "trans_arrow_110"
+    },
+    {
+      "state": "125",
+      "input": "ε",
+      "new_state": "133",
+      "arrow_transition": "trans_arrow_111"
+    },
+    {
+      "state": "125",
+      "input": "ε",
+      "new_state": "136",
+      "arrow_transition": "trans_arrow_112"
+    },
+    {
+      "state": "125",
+      "input": "ε",
+      "new_state": "141",
+      "arrow_transition": "trans_arrow_113"
+    },
+    {
+      "state": "73",
+      "input": "ε",
+      "new_state": "74",
+      "arrow_transition": "trans_arrow_114"
+    },
+    {
+      "state": "24",
+      "input": "ε",
+      "new_state": "25",
+      "arrow_transition": "trans_arrow_115"
+    },
+    {
+      "state": "48",
+      "input": "ε",
+      "new_state": "49",
+      "arrow_transition": "trans_arrow_116"
+    },
+    {
+      "state": "78",
+      "input": "A",
+      "new_state": "79",
+      "arrow_transition": "trans_arrow_117"
+    },
+    {
+      "state": "81",
+      "input": "ε",
+      "new_state": "82",
+      "arrow_transition": "trans_arrow_118"
+    },
+    {
+      "state": "85",
+      "input": "ε",
+      "new_state": "98",
+      "arrow_transition": "trans_arrow_119"
+    },
+    {
+      "state": "88",
+      "input": "V",
+      "new_state": "89",
+      "arrow_transition": "trans_arrow_120"
+    },
+    {
+      "state": "93",
+      "input": "V",
+      "new_state": "94",
+      "arrow_transition": "trans_arrow_121"
+    },
+    {
+      "state": "102",
+      "input": "ε",
+      "new_state": "103",
+      "arrow_transition": "trans_arrow_122"
+    },
+    {
+      "state": "102",
+      "input": "ε",
+      "new_state": "106",
+      "arrow_transition": "trans_arrow_123"
+    },
+    {
+      "state": "109",
+      "input": "A",
+      "new_state": "110",
+      "arrow_transition": "trans_arrow_124"
+    },
+    {
+      "state": "112",
+      "input": "A",
+      "new_state": "113",
+      "arrow_transition": "trans_arrow_125"
+    },
+    {
+      "state": "117",
+      "input": "A",
+      "new_state": "118",
+      "arrow_transition": "trans_arrow_126"
+    },
+    {
+      "state": "126",
+      "input": "ε",
+      "new_state": "127",
+      "arrow_transition": "trans_arrow_127"
+    },
+    {
+      "state": "126",
+      "input": "ε",
+      "new_state": "130",
+      "arrow_transition": "trans_arrow_128"
+    },
+    {
+      "state": "133",
+      "input": "V",
+      "new_state": "134",
+      "arrow_transition": "trans_arrow_129"
+    },
+    {
+      "state": "136",
+      "input": "V",
+      "new_state": "137",
+      "arrow_transition": "trans_arrow_130"
+    },
+    {
+      "state": "141",
+      "input": "V",
+      "new_state": "142",
+      "arrow_transition": "trans_arrow_131"
+    },
+    {
+      "state": "79",
+      "input": "ε",
+      "new_state": "82",
+      "arrow_transition": "trans_arrow_132"
+    },
+    {
+      "state": "82",
+      "input": "ε",
+      "new_state": "98",
+      "arrow_transition": "trans_arrow_133"
+    },
+    {
+      "state": "98",
+      "input": "ε",
+      "new_state": "75",
+      "arrow_transition": "trans_arrow_134"
+    },
+    {
+      "state": "98",
+      "input": "ε",
+      "new_state": "99",
+      "arrow_transition": "trans_arrow_135"
+    },
+    {
+      "state": "89",
+      "input": "A",
+      "new_state": "90",
+      "arrow_transition": "trans_arrow_136"
+    },
+    {
+      "state": "94",
+      "input": "A",
+      "new_state": "95",
+      "arrow_transition": "trans_arrow_137"
+    },
+    {
+      "state": "103",
+      "input": "A",
+      "new_state": "104",
+      "arrow_transition": "trans_arrow_138"
+    },
+    {
+      "state": "106",
+      "input": "ε",
+      "new_state": "107",
+      "arrow_transition": "trans_arrow_139"
+    },
+    {
+      "state": "110",
+      "input": "V",
+      "new_state": "111",
+      "arrow_transition": "trans_arrow_140"
+    },
+    {
+      "state": "113",
+      "input": "V",
+      "new_state": "114",
+      "arrow_transition": "trans_arrow_141"
+    },
+    {
+      "state": "118",
+      "input": "V",
+      "new_state": "119",
+      "arrow_transition": "trans_arrow_142"
+    },
+    {
+      "state": "127",
+      "input": "V",
+      "new_state": "128",
+      "arrow_transition": "trans_arrow_143"
+    },
+    {
+      "state": "130",
+      "input": "ε",
+      "new_state": "131",
+      "arrow_transition": "trans_arrow_144"
+    },
+    {
+      "state": "134",
+      "input": "A",
+      "new_state": "135",
+      "arrow_transition": "trans_arrow_145"
+    },
+    {
+      "state": "137",
+      "input": "A",
+      "new_state": "138",
+      "arrow_transition": "trans_arrow_146"
+    },
+    {
+      "state": "142",
+      "input": "A",
+      "new_state": "143",
+      "arrow_transition": "trans_arrow_147"
+    },
+    {
+      "state": "90",
+      "input": "ε",
+      "new_state": "98",
+      "arrow_transition": "trans_arrow_148"
+    },
+    {
+      "state": "95",
+      "input": "V",
+      "new_state": "96",
+      "arrow_transition": "trans_arrow_149"
+    },
+    {
+      "state": "104",
+      "input": "V",
+      "new_state": "105",
+      "arrow_transition": "trans_arrow_150"
+    },
+    {
+      "state": "107",
+      "input": "ε",
+      "new_state": "108",
+      "arrow_transition": "trans_arrow_151"
+    },
+    {
+      "state": "111",
+      "input": "ε",
+      "new_state": "124",
+      "arrow_transition": "trans_arrow_152"
+    },
+    {
+      "state": "114",
+      "input": "A",
+      "new_state": "115",
+      "arrow_transition": "trans_arrow_153"
+    },
+    {
+      "state": "119",
+      "input": "A",
+      "new_state": "120",
+      "arrow_transition": "trans_arrow_154"
+    },
+    {
+      "state": "128",
+      "input": "A",
+      "new_state": "129",
+      "arrow_transition": "trans_arrow_155"
+    },
+    {
+      "state": "131",
+      "input": "ε",
+      "new_state": "132",
+      "arrow_transition": "trans_arrow_156"
+    },
+    {
+      "state": "135",
+      "input": "ε",
+      "new_state": "148",
+      "arrow_transition": "trans_arrow_157"
+    },
+    {
+      "state": "138",
+      "input": "V",
+      "new_state": "139",
+      "arrow_transition": "trans_arrow_158"
+    },
+    {
+      "state": "143",
+      "input": "V",
+      "new_state": "144",
+      "arrow_transition": "trans_arrow_159"
+    },
+    {
+      "state": "96",
+      "input": "A",
+      "new_state": "97",
+      "arrow_transition": "trans_arrow_160"
+    },
+    {
+      "state": "105",
+      "input": "ε",
+      "new_state": "108",
+      "arrow_transition": "trans_arrow_161"
+    },
+    {
+      "state": "108",
+      "input": "ε",
+      "new_state": "124",
+      "arrow_transition": "trans_arrow_162"
+    },
+    {
+      "state": "124",
+      "input": "ε",
+      "new_state": "149",
+      "arrow_transition": "trans_arrow_163"
+    },
+    {
+      "state": "115",
+      "input": "V",
+      "new_state": "116",
+      "arrow_transition": "trans_arrow_164"
+    },
+    {
+      "state": "120",
+      "input": "V",
+      "new_state": "121",
+      "arrow_transition": "trans_arrow_165"
+    },
+    {
+      "state": "129",
+      "input": "ε",
+      "new_state": "132",
+      "arrow_transition": "trans_arrow_166"
+    },
+    {
+      "state": "132",
+      "input": "ε",
+      "new_state": "148",
+      "arrow_transition": "trans_arrow_167"
+    },
+    {
+      "state": "148",
+      "input": "ε",
+      "new_state": "149",
+      "arrow_transition": "trans_arrow_168"
+    },
+    {
+      "state": "139",
+      "input": "A",
+      "new_state": "140",
+      "arrow_transition": "trans_arrow_169"
+    },
+    {
+      "state": "144",
+      "input": "A",
+      "new_state": "145",
+      "arrow_transition": "trans_arrow_170"
+    },
+    {
+      "state": "97",
+      "input": "ε",
+      "new_state": "98",
+      "arrow_transition": "trans_arrow_171"
+    },
+    {
+      "state": "149",
+      "input": "ε",
+      "new_state": "100",
+      "arrow_transition": "trans_arrow_172"
+    },
+    {
+      "state": "149",
+      "input": "ε",
+      "new_state": "150",
+      "arrow_transition": "trans_arrow_173"
+    },
+    {
+      "state": "116",
+      "input": "ε",
+      "new_state": "124",
+      "arrow_transition": "trans_arrow_174"
+    },
+    {
+      "state": "121",
+      "input": "A",
+      "new_state": "122",
+      "arrow_transition": "trans_arrow_175"
+    },
+    {
+      "state": "140",
+      "input": "ε",
+      "new_state": "148",
+      "arrow_transition": "trans_arrow_176"
+    },
+    {
+      "state": "145",
+      "input": "V",
+      "new_state": "146",
+      "arrow_transition": "trans_arrow_177"
+    },
+    {
+      "state": "122",
+      "input": "V",
+      "new_state": "123",
+      "arrow_transition": "trans_arrow_178"
+    },
+    {
+      "state": "146",
+      "input": "A",
+      "new_state": "147",
+      "arrow_transition": "trans_arrow_179"
+    },
+    {
+      "state": "123",
+      "input": "ε",
+      "new_state": "124",
+      "arrow_transition": "trans_arrow_180"
+    },
+    {
+      "state": "147",
+      "input": "ε",
+      "new_state": "148",
+      "arrow_transition": "trans_arrow_181"
+    }
+  ],
+  "NFAeTestCases": [
+    "ε",
+    "V",
+    "A",
+    "VV",
+    "AV",
+    "VA",
+    "AA",
+    "VVV",
+    "AVV",
+    "VAV",
+    "AAV",
+    "VVA",
+    "AVA",
+    "VAA",
+    "AAA",
+    "VVVV",
+    "AVVV",
+    "VAVV",
+    "AAVV",
+    "VVAV",
+    "AVAV",
+    "VAAV",
+    "AAAV",
+    "VVVA",
+    "AVVA",
+    "VAVA",
+    "AAVA",
+    "VVAA",
+    "AVAA",
+    "VAAA",
+    "AAAA",
+    "VVVVV",
+    "AVVVV",
+    "VAVVV",
+    "AAVVV",
+    "VVAVV",
+    "AVAVV",
+    "VAAVV",
+    "AAAVV",
+    "VVVAV",
+    "AVVAV",
+    "VAVAV",
+    "AAVAV",
+    "VVAAV",
+    "AVAAV",
+    "VAAAV",
+    "AAAAV",
+    "VVVVA",
+    "AVVVA",
+    "VAVVA",
+    "AAVVA",
+    "VVAVA",
+    "AVAVA",
+    "VAAVA",
+    "AAAVA",
+    "VVVAA",
+    "AVVAA",
+    "VAVAA",
+    "AAVAA",
+    "VVAAA",
+    "AVAAA",
+    "VAAAA",
+    "AAAAA",
+    "VVVVVV",
+    "AVVVVV",
+    "VAVVVV",
+    "AAVVVV",
+    "VVAVVV",
+    "AVAVVV",
+    "VAAVVV",
+    "AAAVVV",
+    "VVVAVV",
+    "AVVAVV",
+    "VAVAVV",
+    "AAVAVV",
+    "VVAAVV",
+    "AVAAVV",
+    "VAAAVV",
+    "AAAAVV",
+    "VVVVAV",
+    "AVVVAV",
+    "VAVVAV",
+    "AAVVAV",
+    "VVAVAV",
+    "AVAVAV",
+    "VAAVAV",
+    "AAAVAV",
+    "VVVAAV",
+    "AVVAAV",
+    "VAVAAV",
+    "AAVAAV",
+    "VVAAAV",
+    "AVAAAV",
+    "VAAAAV",
+    "AAAAAV",
+    "VVVVVA",
+    "AVVVVA",
+    "VAVVVA",
+    "AAVVVA",
+    "VVAVVA",
+    "AVAVVA",
+    "VAAVVA",
+    "AAAVVA",
+    "VVVAVA",
+    "AVVAVA",
+    "VAVAVA",
+    "AAVAVA",
+    "VVAAVA",
+    "AVAAVA",
+    "VAAAVA",
+    "AAAAVA",
+    "VVVVAA",
+    "AVVVAA",
+    "VAVVAA",
+    "AAVVAA",
+    "VVAVAA",
+    "AVAVAA",
+    "VAAVAA",
+    "AAAVAA",
+    "VVVAAA",
+    "AVVAAA",
+    "VAVAAA",
+    "AAVAAA",
+    "VVAAAA",
+    "AVAAAA",
+    "VAAAAA",
+    "AAAAAA",
+    "VVVVVVV",
+    "AVVVVVV",
+    "VAVVVVV",
+    "AAVVVVV",
+    "VVAVVVV",
+    "AVAVVVV",
+    "VAAVVVV",
+    "AAAVVVV",
+    "VVVAVVV",
+    "AVVAVVV",
+    "VAVAVVV",
+    "AAVAVVV",
+    "VVAAVVV",
+    "AVAAVVV",
+    "VAAAVVV",
+    "AAAAVVV",
+    "VVVVAVV",
+    "AVVVAVV",
+    "VAVVAVV",
+    "AAVVAVV",
+    "VVAVAVV",
+    "AVAVAVV",
+    "VAAVAVV",
+    "AAAVAVV",
+    "VVVAAVV",
+    "AVVAAVV",
+    "VAVAAVV",
+    "AAVAAVV",
+    "VVAAAVV",
+    "AVAAAVV",
+    "VAAAAVV",
+    "AAAAAVV",
+    "VVVVVAV",
+    "AVVVVAV",
+    "VAVVVAV",
+    "AAVVVAV",
+    "VVAVVAV",
+    "AVAVVAV",
+    "VAAVVAV",
+    "AAAVVAV",
+    "VVVAVAV",
+    "AVVAVAV",
+    "VAVAVAV",
+    "AAVAVAV",
+    "VVAAVAV",
+    "AVAAVAV",
+    "VAAAVAV",
+    "AAAAVAV",
+    "VVVVAAV",
+    "AVVVAAV",
+    "VAVVAAV",
+    "AAVVAAV",
+    "VVAVAAV",
+    "AVAVAAV",
+    "VAAVAAV",
+    "AAAVAAV",
+    "VVVAAAV",
+    "AVVAAAV",
+    "VAVAAAV",
+    "AAVAAAV",
+    "VVAAAAV",
+    "AVAAAAV",
+    "VAAAAAV",
+    "AAAAAAV",
+    "VVVVVVA",
+    "AVVVVVA",
+    "VAVVVVA",
+    "AAVVVVA",
+    "VVAVVVA",
+    "AVAVVVA",
+    "VAAVVVA",
+    "AAAVVVA",
+    "VVVAVVA",
+    "AVVAVVA",
+    "VAVAVVA",
+    "AAVAVVA",
+    "VVAAVVA",
+    "AVAAVVA",
+    "VAAAVVA",
+    "AAAAVVA",
+    "VVVVAVA",
+    "AVVVAVA",
+    "VAVVAVA",
+    "AAVVAVA",
+    "VVAVAVA",
+    "AVAVAVA",
+    "VAAVAVA",
+    "AAAVAVA",
+    "VVVAAVA",
+    "AVVAAVA",
+    "VAVAAVA",
+    "AAVAAVA",
+    "VVAAAVA",
+    "AVAAAVA",
+    "VAAAAVA",
+    "AAAAAVA",
+    "VVVVVAA",
+    "AVVVVAA",
+    "VAVVVAA",
+    "AAVVVAA",
+    "VVAVVAA",
+    "AVAVVAA",
+    "VAAVVAA",
+    "AAAVVAA",
+    "VVVAVAA",
+    "AVVAVAA",
+    "VAVAVAA",
+    "AAVAVAA",
+    "VVAAVAA",
+    "AVAAVAA",
+    "VAAAVAA",
+    "AAAAVAA",
+    "VVVVAAA",
+    "AVVVAAA",
+    "VAVVAAA",
+    "AAVVAAA",
+    "VVAVAAA",
+    "AVAVAAA",
+    "VAAVAAA",
+    "AAAVAAA",
+    "VVVAAAA",
+    "AVVAAAA",
+    "VAVAAAA",
+    "AAVAAAA",
+    "VVAAAAA",
+    "AVAAAAA",
+    "VAAAAAA",
+    "AAAAAAA"
+  ]
+}

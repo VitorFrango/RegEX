@@ -1,0 +1,353 @@
+{
+  "EmptySymbol": "ε",
+  "AllowNulledTrans": 0,
+  "StartState": "0",
+  "FinalStates": [
+    "46"
+  ],
+  "InputAlphabet": [
+    "^",
+    "$",
+    "A",
+    "V"
+  ],
+  "NFAeStates": [
+    "0",
+    "A",
+    "TRAP",
+    "46",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J"
+  ],
+  "NFAeRules": [
+    {
+      "state": "0",
+      "input": "^",
+      "new_state": "A",
+      "arrow_transition": "trans_arrow_0"
+    },
+    {
+      "state": "TRAP",
+      "input": "^",
+      "new_state": "TRAP",
+      "arrow_transition": "trans_arrow_1"
+    },
+    {
+      "state": "TRAP",
+      "input": "$",
+      "new_state": "TRAP",
+      "arrow_transition": "trans_arrow_1"
+    },
+    {
+      "state": "TRAP",
+      "input": "A",
+      "new_state": "TRAP",
+      "arrow_transition": "trans_arrow_1"
+    },
+    {
+      "state": "TRAP",
+      "input": "V",
+      "new_state": "TRAP",
+      "arrow_transition": "trans_arrow_1"
+    },
+    {
+      "state": "0",
+      "input": "$",
+      "new_state": "TRAP",
+      "arrow_transition": "trans_arrow_5"
+    },
+    {
+      "state": "0",
+      "input": "A",
+      "new_state": "TRAP",
+      "arrow_transition": "trans_arrow_5"
+    },
+    {
+      "state": "0",
+      "input": "V",
+      "new_state": "TRAP",
+      "arrow_transition": "trans_arrow_5"
+    },
+    {
+      "state": "A",
+      "input": "^",
+      "new_state": "TRAP",
+      "arrow_transition": "trans_arrow_8"
+    },
+    {
+      "state": "A",
+      "input": "$",
+      "new_state": "46",
+      "arrow_transition": "trans_arrow_9"
+    },
+    {
+      "state": "A",
+      "input": "A",
+      "new_state": "A",
+      "arrow_transition": "trans_arrow_10"
+    },
+    {
+      "state": "A",
+      "input": "V",
+      "new_state": "C",
+      "arrow_transition": "trans_arrow_11"
+    },
+    {
+      "state": "C",
+      "input": "^",
+      "new_state": "TRAP",
+      "arrow_transition": "trans_arrow_12"
+    },
+    {
+      "state": "C",
+      "input": "$",
+      "new_state": "46",
+      "arrow_transition": "trans_arrow_13"
+    },
+    {
+      "state": "C",
+      "input": "A",
+      "new_state": "D",
+      "arrow_transition": "trans_arrow_14"
+    },
+    {
+      "state": "C",
+      "input": "V",
+      "new_state": "E",
+      "arrow_transition": "trans_arrow_15"
+    },
+    {
+      "state": "E",
+      "input": "^",
+      "new_state": "TRAP",
+      "arrow_transition": "trans_arrow_16"
+    },
+    {
+      "state": "E",
+      "input": "$",
+      "new_state": "46",
+      "arrow_transition": "trans_arrow_17"
+    },
+    {
+      "state": "E",
+      "input": "A",
+      "new_state": "D",
+      "arrow_transition": "trans_arrow_18"
+    },
+    {
+      "state": "E",
+      "input": "V",
+      "new_state": "F",
+      "arrow_transition": "trans_arrow_19"
+    },
+    {
+      "state": "F",
+      "input": "^",
+      "new_state": "TRAP",
+      "arrow_transition": "trans_arrow_20"
+    },
+    {
+      "state": "F",
+      "input": "$",
+      "new_state": "46",
+      "arrow_transition": "trans_arrow_21"
+    },
+    {
+      "state": "F",
+      "input": "A",
+      "new_state": "D",
+      "arrow_transition": "trans_arrow_22"
+    },
+    {
+      "state": "F",
+      "input": "V",
+      "new_state": "F",
+      "arrow_transition": "trans_arrow_23"
+    },
+    {
+      "state": "D",
+      "input": "^",
+      "new_state": "TRAP",
+      "arrow_transition": "trans_arrow_24"
+    },
+    {
+      "state": "D",
+      "input": "$",
+      "new_state": "46",
+      "arrow_transition": "trans_arrow_25"
+    },
+    {
+      "state": "D",
+      "input": "A",
+      "new_state": "A",
+      "arrow_transition": "trans_arrow_26"
+    },
+    {
+      "state": "D",
+      "input": "V",
+      "new_state": "G",
+      "arrow_transition": "trans_arrow_27"
+    },
+    {
+      "state": "G",
+      "input": "^",
+      "new_state": "TRAP",
+      "arrow_transition": "trans_arrow_28"
+    },
+    {
+      "state": "G",
+      "input": "$",
+      "new_state": "46",
+      "arrow_transition": "trans_arrow_29"
+    },
+    {
+      "state": "G",
+      "input": "A",
+      "new_state": "H",
+      "arrow_transition": "trans_arrow_30"
+    },
+    {
+      "state": "G",
+      "input": "V",
+      "new_state": "E",
+      "arrow_transition": "trans_arrow_31"
+    },
+    {
+      "state": "H",
+      "input": "^",
+      "new_state": "TRAP",
+      "arrow_transition": "trans_arrow_32"
+    },
+    {
+      "state": "H",
+      "input": "$",
+      "new_state": "46",
+      "arrow_transition": "trans_arrow_33"
+    },
+    {
+      "state": "H",
+      "input": "A",
+      "new_state": "A",
+      "arrow_transition": "trans_arrow_34"
+    },
+    {
+      "state": "H",
+      "input": "V",
+      "new_state": "I",
+      "arrow_transition": "trans_arrow_35"
+    },
+    {
+      "state": "I",
+      "input": "^",
+      "new_state": "TRAP",
+      "arrow_transition": "trans_arrow_36"
+    },
+    {
+      "state": "I",
+      "input": "$",
+      "new_state": "46",
+      "arrow_transition": "trans_arrow_37"
+    },
+    {
+      "state": "I",
+      "input": "A",
+      "new_state": "J",
+      "arrow_transition": "trans_arrow_38"
+    },
+    {
+      "state": "I",
+      "input": "V",
+      "new_state": "E",
+      "arrow_transition": "trans_arrow_39"
+    },
+    {
+      "state": "J",
+      "input": "^",
+      "new_state": "TRAP",
+      "arrow_transition": "trans_arrow_40"
+    },
+    {
+      "state": "J",
+      "input": "$",
+      "new_state": "46",
+      "arrow_transition": "trans_arrow_41"
+    },
+    {
+      "state": "J",
+      "input": "A",
+      "new_state": "A",
+      "arrow_transition": "trans_arrow_42"
+    },
+    {
+      "state": "J",
+      "input": "V",
+      "new_state": "I",
+      "arrow_transition": "trans_arrow_43"
+    },
+    {
+      "state": "A",
+      "input": "^",
+      "new_state": "TRAP",
+      "arrow_transition": "trans_arrow_8"
+    },
+    {
+      "state": "A",
+      "input": "$",
+      "new_state": "46",
+      "arrow_transition": "trans_arrow_9"
+    },
+    {
+      "state": "A",
+      "input": "A",
+      "new_state": "A",
+      "arrow_transition": "trans_arrow_10"
+    },
+    {
+      "state": "A",
+      "input": "V",
+      "new_state": "C",
+      "arrow_transition": "trans_arrow_11"
+    },
+    {
+      "state": "46",
+      "input": "^",
+      "new_state": "TRAP",
+      "arrow_transition": "trans_arrow_48"
+    },
+    {
+      "state": "46",
+      "input": "$",
+      "new_state": "TRAP",
+      "arrow_transition": "trans_arrow_48"
+    },
+    {
+      "state": "46",
+      "input": "A",
+      "new_state": "TRAP",
+      "arrow_transition": "trans_arrow_48"
+    },
+    {
+      "state": "46",
+      "input": "V",
+      "new_state": "TRAP",
+      "arrow_transition": "trans_arrow_48"
+    }
+  ],
+  "NFAeTestCases": [
+    "ε",
+    "V",
+    "VV",
+    "AAA",
+    "AVAVAVAVA",
+    "AV",
+    "VAAV",
+    "AAAAAAA",
+    "AAVV"
+  ]
+}

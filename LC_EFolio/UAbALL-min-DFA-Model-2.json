@@ -1,0 +1,128 @@
+{
+  "EmptySymbol": "ε",
+  "AllowNulledTrans": 0,
+  "StartState": "0",
+  "FinalStates": [
+    "46"
+  ],
+  "InputAlphabet": [
+    "^",
+    "$",
+    "A",
+    "V"
+  ],
+  "NFAeStates": [
+    "0",
+    "46",
+    "A",
+    "TRAP"
+  ],
+  "NFAeRules": [
+    {
+      "state": "0",
+      "input": "^",
+      "new_state": "A",
+      "arrow_transition": "trans_arrow_0"
+    },
+    {
+      "state": "0",
+      "input": "$",
+      "new_state": "TRAP",
+      "arrow_transition": "trans_arrow_1"
+    },
+    {
+      "state": "0",
+      "input": "A",
+      "new_state": "TRAP",
+      "arrow_transition": "trans_arrow_1"
+    },
+    {
+      "state": "0",
+      "input": "V",
+      "new_state": "TRAP",
+      "arrow_transition": "trans_arrow_1"
+    },
+    {
+      "state": "46",
+      "input": "^",
+      "new_state": "TRAP",
+      "arrow_transition": "trans_arrow_4"
+    },
+    {
+      "state": "46",
+      "input": "$",
+      "new_state": "TRAP",
+      "arrow_transition": "trans_arrow_4"
+    },
+    {
+      "state": "46",
+      "input": "A",
+      "new_state": "TRAP",
+      "arrow_transition": "trans_arrow_4"
+    },
+    {
+      "state": "46",
+      "input": "V",
+      "new_state": "TRAP",
+      "arrow_transition": "trans_arrow_4"
+    },
+    {
+      "state": "A",
+      "input": "^",
+      "new_state": "TRAP",
+      "arrow_transition": "trans_arrow_8"
+    },
+    {
+      "state": "A",
+      "input": "$",
+      "new_state": "46",
+      "arrow_transition": "trans_arrow_9"
+    },
+    {
+      "state": "A",
+      "input": "A",
+      "new_state": "A",
+      "arrow_transition": "trans_arrow_10"
+    },
+    {
+      "state": "A",
+      "input": "V",
+      "new_state": "A",
+      "arrow_transition": "trans_arrow_10"
+    },
+    {
+      "state": "TRAP",
+      "input": "^",
+      "new_state": "TRAP",
+      "arrow_transition": "trans_arrow_12"
+    },
+    {
+      "state": "TRAP",
+      "input": "$",
+      "new_state": "TRAP",
+      "arrow_transition": "trans_arrow_12"
+    },
+    {
+      "state": "TRAP",
+      "input": "A",
+      "new_state": "TRAP",
+      "arrow_transition": "trans_arrow_12"
+    },
+    {
+      "state": "TRAP",
+      "input": "V",
+      "new_state": "TRAP",
+      "arrow_transition": "trans_arrow_12"
+    }
+  ],
+  "NFAeTestCases": [
+    "ε",
+    "V",
+    "VV",
+    "AAA",
+    "AVAVAVAVA",
+    "AV",
+    "VAAV",
+    "AAAAAAA"
+  ]
+}

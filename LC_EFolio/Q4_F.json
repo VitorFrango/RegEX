@@ -1,0 +1,176 @@
+{
+  "EmptySymbol": "ε",
+  "AllowNulledTrans": 0,
+  "StartState": "0",
+  "FinalStates": [
+    "11"
+  ],
+  "InputAlphabet": [
+    "^",
+    "A",
+    "V",
+    "$"
+  ],
+  "NFAeStates": [
+    "0",
+    "11",
+    "TRAP",
+    "A",
+    "A",
+    "C"
+  ],
+  "NFAeRules": [
+    {
+      "state": "0",
+      "input": "^",
+      "new_state": "A",
+      "arrow_transition": "trans_arrow_0"
+    },
+    {
+      "state": "0",
+      "input": "A",
+      "new_state": "TRAP",
+      "arrow_transition": "trans_arrow_1"
+    },
+    {
+      "state": "0",
+      "input": "V",
+      "new_state": "TRAP",
+      "arrow_transition": "trans_arrow_1"
+    },
+    {
+      "state": "0",
+      "input": "$",
+      "new_state": "TRAP",
+      "arrow_transition": "trans_arrow_1"
+    },
+    {
+      "state": "11",
+      "input": "^",
+      "new_state": "TRAP",
+      "arrow_transition": "trans_arrow_4"
+    },
+    {
+      "state": "11",
+      "input": "A",
+      "new_state": "TRAP",
+      "arrow_transition": "trans_arrow_4"
+    },
+    {
+      "state": "11",
+      "input": "V",
+      "new_state": "TRAP",
+      "arrow_transition": "trans_arrow_4"
+    },
+    {
+      "state": "11",
+      "input": "$",
+      "new_state": "TRAP",
+      "arrow_transition": "trans_arrow_4"
+    },
+    {
+      "state": "TRAP",
+      "input": "^",
+      "new_state": "TRAP",
+      "arrow_transition": "trans_arrow_8"
+    },
+    {
+      "state": "TRAP",
+      "input": "A",
+      "new_state": "TRAP",
+      "arrow_transition": "trans_arrow_8"
+    },
+    {
+      "state": "TRAP",
+      "input": "V",
+      "new_state": "TRAP",
+      "arrow_transition": "trans_arrow_8"
+    },
+    {
+      "state": "TRAP",
+      "input": "$",
+      "new_state": "TRAP",
+      "arrow_transition": "trans_arrow_8"
+    },
+    {
+      "state": "A",
+      "input": "^",
+      "new_state": "TRAP",
+      "arrow_transition": "trans_arrow_12"
+    },
+    {
+      "state": "A",
+      "input": "A",
+      "new_state": "A",
+      "arrow_transition": "trans_arrow_13"
+    },
+    {
+      "state": "A",
+      "input": "V",
+      "new_state": "C",
+      "arrow_transition": "trans_arrow_14"
+    },
+    {
+      "state": "A",
+      "input": "$",
+      "new_state": "11",
+      "arrow_transition": "trans_arrow_15"
+    },
+    {
+      "state": "A",
+      "input": "^",
+      "new_state": "TRAP",
+      "arrow_transition": "trans_arrow_16"
+    },
+    {
+      "state": "A",
+      "input": "A",
+      "new_state": "A",
+      "arrow_transition": "trans_arrow_17"
+    },
+    {
+      "state": "A",
+      "input": "V",
+      "new_state": "TRAP",
+      "arrow_transition": "trans_arrow_16"
+    },
+    {
+      "state": "A",
+      "input": "$",
+      "new_state": "11",
+      "arrow_transition": "trans_arrow_19"
+    },
+    {
+      "state": "C",
+      "input": "^",
+      "new_state": "TRAP",
+      "arrow_transition": "trans_arrow_20"
+    },
+    {
+      "state": "C",
+      "input": "A",
+      "new_state": "TRAP",
+      "arrow_transition": "trans_arrow_20"
+    },
+    {
+      "state": "C",
+      "input": "V",
+      "new_state": "C",
+      "arrow_transition": "trans_arrow_22"
+    },
+    {
+      "state": "C",
+      "input": "$",
+      "new_state": "11",
+      "arrow_transition": "trans_arrow_23"
+    }
+  ],
+  "NFAeTestCases": [
+    "ε",
+    "V",
+    "A",
+    "VV",
+    "AAVV",
+    "AAAVV"
+  ]
+}
